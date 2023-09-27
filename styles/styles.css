@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding:0;
+}
+header {
+    background-color: #eeeeee;
+    padding: 10px;
+}
+nav{
+    text-align: center;
+    font-size: larger;
+    
+   
+}
+a{
+    font-size: x-large;
+    color: #ff0000;
+    font-size: medium;
+    font-weight: bolder;
+    text-decoration: none;
+    margin: 2px;
+    font-family: arial,sans-serif;
+    transition: 0.3s;
+    background:linear-gradient(#ff0000,#00ff00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    
+}
+.home-section {
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-color: rgba(69, 157, 163, 0.548);
+    background-image: url("../image1.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 70vh;
+    filter: brightness(90%);
+    background-position: center;
+    object-fit: 500px;
+}
+.my-name{
+    color: #FFC107;
+    font-size: x-large;
+    font-style: italic;
+    font-weight: bolder;
+    padding: 20px;
+    font-size: 36px;
+    
+    
+}
+.home-section p{
+    color: #FFC107;
+    font-size: 36PX;
+    font-style: italic;font-weight: bolder;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.home-section{
+    font-size: 30px;
+    
+}
+.home-section  i{
+    font-size: large;
+    color: darkorange;
+    height: 10px;
+    width: 15px;
+    position: static;
+    
+}
+.about{
+width: 60%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.about img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
+   
+
+}
+.about-content{
+    width: 70%;
+    
+    
+}
+.about-content > h1{
+    
+    color: #532D8C;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    text-align: center;
+    line-height: 1.5;
+    padding: 15px;
+    background-color: lightgray;
+    
+}
+.about-content >p{
+    color: rgba(45,198,168,0.85);
+    font-family: poppins,sans-serif;
+    font-size: 17px;
+    text-align: center;
+    line-height: 1.5;
+    
+
+
+}
+.resume {
+    background-image:linear-gradient(to left,gray,purple);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height: 300px;
+    
+}
+.centered-text{
+    background-color: #ffffff;
+}

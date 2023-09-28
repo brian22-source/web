@@ -143,4 +143,5 @@ width: 60%;
     letter-spacing: 2px;
     font-weight: 600;
     font-family: 'Brush Script MT', cursive;
+    font-size:calc(2vw + 1px);
 }
